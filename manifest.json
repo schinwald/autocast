@@ -17,8 +17,8 @@
   },
   "content_scripts": [
     {
-      "js": ["scripts/content.js"],
-      "matches": ["<all_urls>"]
+      "matches": ["<all_urls>"],
+      "js": ["https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1", "scripts/content.js"],
     }
   ]
 }
